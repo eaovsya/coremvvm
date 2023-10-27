@@ -3,6 +3,7 @@ package com.github.eaovsya.coremvvm.data
 import retrofit2.Converter
 import retrofit2.converter.gson.GsonConverterFactory
 
+/**@SelfDocumented*/
 interface ProvideConverterFactory {
 
     fun converterFactory(): Converter.Factory

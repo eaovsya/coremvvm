@@ -11,6 +11,9 @@ import retrofit2.Retrofit
 import javax.inject.Named
 import javax.inject.Singleton
 
+/**
+ * To have access to its elements, put [CoreComponent] into your component's dependencies
+ */
 @Singleton
 @Component(modules = [CoreModule::class, GlobalErrorCommunicationModule::class])
 interface CoreComponent {

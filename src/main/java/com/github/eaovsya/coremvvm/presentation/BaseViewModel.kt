@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.github.eaovsya.coremvvm.core.Dispatchers
 
+/**@SelfDocumented*/
 abstract class BaseViewModel(
     private val dispatchers: Dispatchers
 ) : ViewModel() {

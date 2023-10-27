@@ -5,6 +5,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
 
+/**@SelfDocumented*/
 class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
     private val binding: ViewDataBinding = DataBindingUtil.bind(view)!!

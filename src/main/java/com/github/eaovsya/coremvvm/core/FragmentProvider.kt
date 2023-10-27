@@ -3,6 +3,7 @@ package com.github.eaovsya.coremvvm.core
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 
+/**@SelfDocumented*/
 interface FragmentProvider {
 
     val type: Class<out Fragment>

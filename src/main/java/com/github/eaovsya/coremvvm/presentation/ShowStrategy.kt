@@ -4,8 +4,12 @@ import android.os.Bundle
 import androidx.fragment.app.FragmentManager
 import com.github.eaovsya.coremvvm.core.FragmentProvider
 
+/**
+ * Specifies strategy that is gonna be used to show a fragment
+ */
 abstract class ShowStrategy {
 
+    /**@SelfDocumented*/
     abstract fun show(
         fragmentProvider: FragmentProvider,
         containerId: Int,

@@ -2,12 +2,18 @@ package com.github.eaovsya.coremvvm.core
 
 import kotlinx.coroutines.*
 
+/**
+ * Interface to work with coroutines with needed dispatchers
+ */
 interface Dispatchers {
 
+    /**@SelfDocumented*/
     fun launchUI(scope: CoroutineScope, block: suspend CoroutineScope.() -> Unit): Job
 
+    /**@SelfDocumented*/
     fun launchBackground(scope: CoroutineScope, block: suspend CoroutineScope.() -> Unit): Job
 
+    /**@SelfDocumented*/
     suspend fun changeToUI(block: suspend CoroutineScope. () -> Unit)
 
     abstract class Abstract(

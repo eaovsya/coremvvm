@@ -5,6 +5,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModel
 import javax.inject.Inject
 
+/**@SelfDocumented*/
 class BaseMainViewModel @Inject constructor(
     private val globalErrorCommunication: GlobalErrorCommunication.Mutable
 ) : GlobalErrorCommunication.Observe, ViewModel() {

@@ -6,6 +6,10 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 
+/**
+ * Base [ListAdapter] for items with ViewBinding
+ * Items of [ViewDataListAdapter] need to extend [ListAdapterItem]
+ */
 open class ViewDataListAdapter :
     ListAdapter<ListAdapterItem, ViewHolder>(DiffCallback()) {
 

@@ -2,6 +2,7 @@ package com.github.eaovsya.coremvvm.data
 
 import retrofit2.Retrofit
 
+/**@SelfDocumented*/
 interface ProvideRetrofitBuilder {
 
     fun provideRetrofitBuilder(): Retrofit.Builder

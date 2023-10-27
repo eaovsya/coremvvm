@@ -1,5 +1,6 @@
 package com.github.eaovsya.coremvvm.data
 
+/**@SelfDocumented*/
 interface CloudDataSource {
 
     suspend fun <T> handle(block: suspend () -> T): T

@@ -3,6 +3,7 @@ package com.github.eaovsya.coremvvm.domain
 import com.github.eaovsya.coremvvm.core.Dispatchers
 import com.github.eaovsya.coremvvm.data.HandleError
 
+/**@SelfDocumented*/
 interface Interactor {
 
     suspend fun <T> handle(
@@ -11,6 +12,10 @@ interface Interactor {
         block: suspend () -> T
     )
 
+    /**
+     * @SelfDocumented
+     * @param handleError - when implementing you need to use [UiErrorQualifier] for this parameter
+     */
     abstract class Abstract(
         private val dispatchers: Dispatchers,
         private val handleError: HandleError

@@ -5,6 +5,7 @@ import dagger.Binds
 import dagger.Module
 import javax.inject.Singleton
 
+/**@SelfDocumented*/
 @Module
 internal abstract class GlobalErrorCommunicationModule {
 

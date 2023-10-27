@@ -3,6 +3,7 @@ package com.github.eaovsya.coremvvm.data
 import okhttp3.OkHttpClient
 import java.util.concurrent.TimeUnit
 
+/**@SelfDocumented*/
 interface ProvideOkHttpClientBuilder {
 
     fun httpClientBuilder(): OkHttpClient.Builder

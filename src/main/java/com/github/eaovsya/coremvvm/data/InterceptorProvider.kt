@@ -2,6 +2,7 @@ package com.github.eaovsya.coremvvm.data
 
 import okhttp3.logging.HttpLoggingInterceptor
 
+/**@SelfDocumented*/
 interface InterceptorProvider {
 
     fun interceptor(): HttpLoggingInterceptor

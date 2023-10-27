@@ -10,6 +10,7 @@ import com.github.eaovsya.coremvvm.di.CoreComponentProvider
 import com.github.eaovsya.coremvvm.di.ViewModelsFactory
 import javax.inject.Inject
 
+/**@SelfDocumented*/
 abstract class BaseMainActivity(private val layoutResId: Int) : AppCompatActivity() {
 
     @Inject

@@ -7,6 +7,7 @@ import com.github.eaovsya.coremvvm.R
 import com.github.eaovsya.coremvvm.domain.NoInternetConnectionException
 import com.github.eaovsya.coremvvm.domain.ServiceUnavailableException
 
+/**@SelfDocumented*/
 abstract class HandleUiErrorAbstract(
     private val resourceManager: ResourceManager,
     private val globalErrorCommunication: GlobalErrorCommunication.Update,
@@ -37,6 +38,7 @@ abstract class HandleUiErrorAbstract(
     }
 }
 
+/**@SelfDocumented*/
 class HandleGenericUiError(
     private val manageResources: ResourceManager,
     private val globalErrorCommunication: GlobalErrorCommunication.Update
@@ -48,6 +50,7 @@ class HandleGenericUiError(
     }
 }
 
+/**@SelfDocumented*/
 class HandleUiError(
     manageResources: ResourceManager,
     globalErrorCommunication: GlobalErrorCommunication.Update

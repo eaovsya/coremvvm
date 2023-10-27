@@ -2,6 +2,9 @@ package com.github.eaovsya.coremvvm.di
 
 import androidx.fragment.app.Fragment
 
+/**
+ * Interface for injecting Dagger Components
+ */
 interface FragmentInjector {
 
     fun inject()

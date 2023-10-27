@@ -19,6 +19,7 @@ import retrofit2.Retrofit
 import javax.inject.Named
 import javax.inject.Singleton
 
+/**@SelfDocumented*/
 @Module
 class CoreModule {
 

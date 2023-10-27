@@ -8,6 +8,9 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 
+/**
+ * Abstract class that inflates provided view with [ViewDataBinding]
+ */
 abstract class ViewDataBindingFragment<DB : ViewDataBinding>(
     private val layoutResId: Int
 ) : Fragment() {

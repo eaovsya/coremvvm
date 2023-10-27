@@ -1,5 +1,6 @@
 package com.github.eaovsya.coremvvm.presentation.adapter
 
+/**@SelfDocumented*/
 abstract class ListAdapterItem (
     private val id: Long,
     private val layoutId: Int,

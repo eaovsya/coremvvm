@@ -3,6 +3,7 @@ package com.github.eaovsya.coremvvm.core
 import android.content.Context
 import androidx.annotation.StringRes
 
+/**@SelfDocumented*/
 interface ResourceManager {
 
     fun string(@StringRes id: Int): String

@@ -8,6 +8,9 @@ import com.github.eaovsya.coremvvm.di.FragmentInjector
 import com.github.eaovsya.coremvvm.di.ViewModelsFactory
 import javax.inject.Inject
 
+/**
+ * Abstract class that provides auto injection of ViewModels and DaggerComponent
+ */
 abstract class ViewModelInjectionFragment<DB : ViewDataBinding, VM : ViewModel>(
     layoutResId: Int
 ) : ViewDataBindingFragment<DB>(layoutResId) {

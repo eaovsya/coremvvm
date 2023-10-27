@@ -6,10 +6,12 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
 import java.util.concurrent.atomic.AtomicBoolean
 
+/**@SelfDocumented*/
 class SingleLiveEvent<T> : MutableLiveData<T>() {
 
     private val mPending = AtomicBoolean(false)
 
+    /**@SelfDocumented*/
     @MainThread
     override fun observe(owner: LifecycleOwner, observer: Observer<in T>) {
         super.observe(owner) { t ->
@@ -19,6 +21,7 @@ class SingleLiveEvent<T> : MutableLiveData<T>() {
         }
     }
 
+    /**@SelfDocumented*/
     @MainThread
     override fun setValue(t: T?) {
         mPending.set(true)

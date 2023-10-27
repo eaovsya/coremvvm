@@ -1,5 +1,6 @@
 package com.github.eaovsya.coremvvm.presentation
 
+/**@SelfDocumented*/
 interface GlobalErrorCommunication {
 
     interface Observe : Communication.Observe<String>
